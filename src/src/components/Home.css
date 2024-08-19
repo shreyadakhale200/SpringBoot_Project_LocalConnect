@@ -1,0 +1,54 @@
+/* Home.css */
+
+/* Home.css */
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 20px; /* Add padding if needed */
+  border-radius: 10px; /* Optional for rounded corners */
+}
+
+.header-area.header-sticky {
+  min-height: 80px;
+  position: fixed;
+  background: #b9d2ffa6;
+  margin: 1em 0em 25em 0em;
+}
+
+/* Other styles remain unchanged */
+
+  .home-title {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+
+  .home-subtitle {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 30px;
+  }
+
+  .button-container {
+    display: flex;
+    gap: 20px;
+  }
+
+  .home-button {
+    padding: 15px 30px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .home-button:hover {
+    background-color: #0056b3;
+  }

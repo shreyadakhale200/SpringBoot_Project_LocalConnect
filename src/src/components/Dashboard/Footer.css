@@ -1,0 +1,34 @@
+/* src/assets/css/footer.css */
+
+.footer-area {
+    background-color: #333; /* Dark background */
+    color: white; /* White text */
+    text-align: center; /* Center text */
+    padding: 10px 0; /* Padding for some space */
+    width: 100%; /* Full width */
+    position: fixed; /* Fix the footer to the bottom */
+    bottom: 0; /* Position at the bottom */
+    left: 0; /* Align to the left */
+  }
+  
+  .footer-area p {
+    margin: 0; /* Remove default margin */
+    font-size: 14px; /* Font size adjustment */
+  }
+  
+  /* footer.css */
+
+.footer-area {
+  background-color: #333; /* Dark background */
+  color: white; /* White text */
+  text-align: center; /* Center text */
+  padding: 10px 0; /* Padding for some space */
+  width: 100%; /* Full width */
+  position: fixed; /* Use relative to avoid fixed overlapping */
+  bottom: 0; /* Align to the bottom if the content pushes it */
+  left: 0; /* Align to the left */
+  clear: both; /* Ensure it clears any floats above */
+}
+
+
+

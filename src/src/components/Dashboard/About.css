@@ -1,0 +1,142 @@
+/* Apply Flexbox styles to the body or a parent container to center the .about-us-container */
+body {
+  margin: 0; /* Remove default margin */
+  height: 100%; /* Full viewport height */
+  display: flex;
+  align-items: center; /* Center vertically */
+  justify-content: center; /* Center horizontally */
+  /* text-align: center; */
+   /* Center text within the container */
+}
+
+/* Styles for the container */
+.about-us-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center content horizontally */
+  justify-content: center; /* Center content vertically */
+  padding: 20px; /* Add some padding */
+  max-width: 1000px; /* Limit the width of the container */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: add some shadow for better visibility */
+  background-color: #ffffff8a; /* Optional: add background color */
+  margin-top: 10em;
+}
+
+/* Adjust other sections and content as needed */
+.hero-section,
+.our-mission-section,
+.reviews-section {
+  padding: 20px;
+  width: 100%; /* Ensure sections take full width of container */
+}
+
+.hero-content,
+.reviews-container {
+  max-width: 800px; /* Limit width for better readability */
+}
+
+/* Review card styles */
+.review-card {
+  background-color: #97b5eb;
+border: 1px solid #ddd;
+border-radius: 8px;
+padding: 20px;
+max-width: 600px;
+margin: 10px 0;
+}
+
+.review-card p{
+  color: black;
+}
+
+.key-features-section{
+  text-align: center;
+}
+
+.reviews-container{
+  margin-left: 11em;
+}
+
+.reviews-section{
+  text-align: center;
+}
+
+.hero-content p{
+  color: rgb(107, 106, 106);
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 19px;
+}
+
+.our-mission-section p{
+  color: rgb(107, 106, 106);
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 19px;
+}
+
+/* Review Form Styling */
+/* Review Form Styling */
+.review-form-container {
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+  margin-left: 7em;
+  background: linear-gradient(106.37deg, #719ae4bb 29.63%, #b9d2ffa6 51.55%, #bc6ff4b7 90.85%);
+  border-radius: 8px;
+}
+.review-form-container textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  resize: vertical;
+  border-radius: 40px;
+}
+
+.review-form-container h3 {
+  margin-bottom: 10px;
+  text-align: center; /* Center align text */
+}
+
+.review-form-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.review-form-container textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  resize: vertical; /* Allow vertical resizing only */
+}
+
+.review-form-container input {
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+
+.review-form-container button {
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.mainAbout{
+  margin-top: 8em;
+}
+
+.review-form-container button:hover {
+  background-color: #0056b3;
+}
+
+.header{
+    margin-top: 8em;
+}
